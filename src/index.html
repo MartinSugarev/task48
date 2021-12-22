@@ -9,19 +9,25 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
    <style>
-     form > * {
+     input{
        display: block;
      }
    </style>
   </head>
   <body>
     <form>
-      <input type="email" name="email">
-      <input type="text" name="name" >
-      <input type="text" name="address" >
-      <input type="tel" name="phone" >
-      <input type="color" name="color">
-      <input type="date" name="delivery_date">
+      <label for="email" >Email</label>
+      <input type="email" name="email" id="email" class="input">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" class="input">
+      <label for="address">Address</label>
+      <input type="text" name="address" id="address" class="input">
+      <label for="phone">Phone</label>
+      <input type="tel" name="phone" id="phone" class="input">
+      <label for="color">Color</label>
+      <input type="color" name="color" id="color" class="input">
+      <label for="delivery_date">Delivery Date</label>
+      <input type="date" name="delivery_date" id="delivery_date" class="input">
     </form>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
